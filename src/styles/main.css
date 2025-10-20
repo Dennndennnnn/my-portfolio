@@ -134,6 +134,49 @@ body {
 .project-card .btn:hover {
   background: #005ec2;
 }
+/* Quote */
+.quote {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: white;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.quote h2 {
+  color: #0077ff;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.quote p {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.quote button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.quote button:hover {
+  background-color: #1d4ed8;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
 /* Contact */
 .contact p {
